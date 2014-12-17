@@ -1,0 +1,12 @@
+<div container>
+  <div class="media">
+    <a class="pull-left" href="#">
+      <img class="media-object" src=" <%= @url %>" alt="...">
+    </a>
+  <div class="media-body">
+    <h1 class="media-heading"> <%= @caption %></h1>
+     <h3> <%= @bio %></h3>
+    <a href="/bio/<%= @bio.id %>/destroy">| delete</a>
+  </div>
+ </div>
+</div>
